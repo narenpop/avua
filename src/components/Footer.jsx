@@ -21,7 +21,7 @@ export default function Footer() {
         About avua
       </p>
 
-      <p className="text-sm md:text-[17px] leading-relaxed">
+      <p className="text-sm md:text-[17px] leading-relaxed mb-6 text-black">
         avua is an AI-powered hiring platform connecting talented professionals
         with over 1 million active job opportunities worldwide. Our mission is
         to transform the recruitment experience by making it faster, smarter,
@@ -29,7 +29,7 @@ export default function Footer() {
       </p>
 
       {/* Links Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-[700px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-[700px] mb-6">
         {footerLinks.map((link) => (
           <div
             key={link.id}
@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
 
       {/* Description section */}
-      <div className="flex flex-col sm:flex-row gap-4 items-start">
+      <div className="flex flex-col sm:flex-row gap-4 items-start mb-6">
         <img
           src="./footdesign.svg"
           width={61}
