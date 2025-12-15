@@ -13,7 +13,7 @@ export default function Navbar() {
       </ul>
 
       <button className="border px-6 py-2 rounded-full text-sm">
-        Sign up to Auva today
+        Sign up to Avua today
       </button>
     </nav>
   );
