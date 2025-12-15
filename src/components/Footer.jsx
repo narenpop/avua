@@ -23,7 +23,7 @@ export default function Footer() {
 
       <p className="text-sm md:text-[17px] leading-relaxed mb-6 text-black">
         avua is an AI-powered hiring platform connecting talented professionals
-        with over 1 million active job opportunities worldwide. Our mission is
+        with over <span className='font-bold'>1 million active job opportunities worldwide.</span> Our mission is
         to transform the recruitment experience by making it faster, smarter,
         and more personalized. We specialize in six key sectors.
       </p>
