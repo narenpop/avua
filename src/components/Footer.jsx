@@ -11,10 +11,10 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-600 mt-10 mb-20 rounded-3xl 
+    <footer className="bg-gradient-to-r from-[#F9F2F6] via-[#FDF8F9] to-[#F5F4FB] text-gray-600 mt-10 mb-20 rounded-3xl 
       px-5 py-6 
       md:px-10 md:py-10 
-      flex flex-col gap-6">
+      flex flex-col gap-6 shadow-md ">
 
       {/* About */}
       <p className="text-base md:text-[18px] font-bold text-black">

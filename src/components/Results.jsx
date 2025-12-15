@@ -82,7 +82,7 @@ export default function Results() {
   const currentJobs = jobsData.slice(startIndex, startIndex + JOBS_PER_PAGE);
 
   return (
-    <div className="flex flex-col lg:flex-row w-full my-10 gap-6 px-4 lg:px-0">
+    <div className="flex flex-col lg:flex-row w-full my-10 gap-6 px-4 lg:px-0 mb-10">
       {/* LEFT SECTION */}
       <div className="w-full lg:basis-[70%]">
         {currentJobs.map((job) => (
